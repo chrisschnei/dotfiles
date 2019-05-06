@@ -15,6 +15,8 @@ alias l='ls'
 alias re='sudo shutdown -r now'
 alias sd='sudo shutdown -p now'
 
+# git
+alias t='tig'
 alias gg='gitg'
 
 PATH=$PATH:$HOME/.rvm/bin:/usr/bin/vendor_perl # Add RVM to PATH for scripting

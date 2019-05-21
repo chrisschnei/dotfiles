@@ -18,7 +18,7 @@ alias l='ls -CF'
 # git
 alias g='gitk --all &'
 alias gg='gitg &'
-alias t='tig'
+alias t='tig --all'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like

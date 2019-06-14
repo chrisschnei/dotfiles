@@ -181,5 +181,8 @@ bar {
 # change keyboard layout to german
 exec "setxkbmap -layout de"
 
+# set background image
+exec --no-startup-id feh --bg-fill ${HOME}/Pictures/macosCatalina.jpg
+
 # activate numblock
 exec_always --no-startup-id numlockx on

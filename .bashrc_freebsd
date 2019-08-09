@@ -12,16 +12,24 @@ PS1='[\u@\h \W]\$ '
 alias ll='ls -alF'
 alias la='ls -a'
 alias l='ls'
-alias re='sudo shutdown -r now'
-alias sd='sudo shutdown -p now'
 
 # git
 alias t='tig --all'
 alias gg='gitg'
 
+# acpi states
+# sleep
+alias hr='sudo acpiconf -s 3'
+# hibernate
+alias hd='sudo acpiconf -s 4'
+# restart
+alias re='sudo shutdown -r now'
+# power off
+alias sd='sudo shutdown -p now'
+
 PATH=$PATH:$HOME/.rvm/bin:/usr/bin/vendor_perl # Add RVM to PATH for scripting
 
-export LANG=en_EN.UTF-8
+export LANG=de_DE.UTF-8
 
 #use ctl keys to move forward and back in words
 bind '"\e[1;5D" backward-word' 

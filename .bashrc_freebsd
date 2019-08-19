@@ -15,7 +15,8 @@ alias l='ls'
 
 # git
 alias t='tig --all'
-alias gg='gitg'
+alias g='gitk --all &'
+alias gg='gitg &'
 
 # acpi states
 # sleep

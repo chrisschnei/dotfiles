@@ -198,3 +198,12 @@ exec_always --no-startup-id numlockx on
 
 # set background image
 exec --no-startup-id feh --bg-fill ${HOME}/Bilder/macosCatalina.jpg
+
+assign [class="UXTerm"] 1
+assign [class="Chrome"] 2
+assign [class="Thunderbird"] 3
+
+# autostart thunderbird, uxterm and chrome on i3 startup
+exec thunderbird
+exec uxterm
+exec chrome

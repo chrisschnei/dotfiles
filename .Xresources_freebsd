@@ -1,0 +1,5 @@
+xterm*font:		*-fixed-*-*-*-18-*
+xterm*faceName:		Monospace
+xterm*faceSize:		10
+xterm*background:	white
+xterm*foreground:	black

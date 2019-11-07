@@ -27,6 +27,8 @@ alias hd='sudo acpiconf -s 4'
 alias re='sudo shutdown -r now'
 # power off
 alias sd='sudo shutdown -p now'
+# i3lock-fancy
+alias i='i3lock-fancy'
 
 PATH=$PATH:$HOME/.rvm/bin:/usr/bin/vendor_perl # Add RVM to PATH for scripting
 

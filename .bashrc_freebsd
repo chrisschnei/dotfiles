@@ -18,6 +18,9 @@ alias t='tig --all'
 alias g='gitk --all &'
 alias gg='gitg &'
 
+#fzf find
+alias f='fzf'
+
 # acpi states
 # sleep
 alias hr='sudo acpiconf -s 3'

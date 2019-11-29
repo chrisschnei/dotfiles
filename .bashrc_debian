@@ -20,6 +20,9 @@ alias g='gitk --all &'
 alias gg='gitg &'
 alias t='tig --all'
 
+#fzf find
+alias f='fzf'
+
 # restart
 alias re='sudo shutdown -r now'
 # halt

@@ -10,23 +10,7 @@ if [ -x /usr/bin/dircolors ]; then
     #alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
-
-# git
-alias g='gitk --all &'
-alias gg='gitg &'
-alias t='tig --all'
-
-#fzf find
-alias f='fzf'
-
-# restart
-alias re='sudo shutdown -r now'
-# halt
-alias sd='sudo shutdown -P now'
+source $HOME/.aliases
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like

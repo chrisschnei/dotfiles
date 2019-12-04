@@ -10,6 +10,12 @@ zstyle :compinstall filename '/home/cschneider/.zshrc'
 PROMPT='%m:%~ %n%# '
 source $HOME/.aliases
 
+export PATH=$PATH:/sbin:/usr/sbin
+
+#use ctl keys to move forward and back in words
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall

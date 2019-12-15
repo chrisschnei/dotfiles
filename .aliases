@@ -15,3 +15,15 @@ alias f='fzf'
 alias re='sudo shutdown -r now'
 # halt
 alias sd='sudo shutdown -P now'
+
+# acpi states
+# sleep
+alias hr='sudo acpiconf -s 3'
+# hibernate
+alias hd='sudo acpiconf -s 4'
+# restart
+alias re='sudo shutdown -r now'
+# power off
+alias sd='sudo shutdown -p now'
+# i3lock-fancy
+alias i='i3lock-fancy'

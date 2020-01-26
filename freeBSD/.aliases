@@ -14,7 +14,7 @@ alias f='fzf'
 # restart
 alias re='shutdown -r now'
 # halt
-alias sd='shutdown -P now'
+alias sd='shutdown -p now'
 
 # acpi states
 # sleep

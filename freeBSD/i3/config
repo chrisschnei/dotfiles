@@ -197,7 +197,7 @@ exec "setxkbmap -layout de"
 exec_always --no-startup-id numlockx on
 
 # set background image
-exec --no-startup-id feh --bg-fill ${HOME}/Bilder/macosCatalina.jpg
+exec --no-startup-id feh --bg-fill ${HOME}/Bilder/wallpaper.jpg
 
 assign [class="UXTerm"] 1
 assign [class="Chromium-browser"] 2

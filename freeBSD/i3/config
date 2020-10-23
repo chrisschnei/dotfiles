@@ -134,9 +134,9 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # audio controls
-bindsym XF86AudioRaiseVolume exec mixer -S speaker vol +10 #increase sound volume
-bindsym XF86AudioLowerVolume exec mixer -S speaker -10 #decrease sound volume
-bindsym XF86AudioMute exec mixer -S speaker -100 # mute sound
+#bindsym XF86AudioRaiseVolume exec mixer -S speaker vol +10 #increase sound volume
+#bindsym XF86AudioLowerVolume exec mixer -S speaker -10 #decrease sound volume
+#bindsym XF86AudioMute exec mixer -S speaker -100 # mute sound
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

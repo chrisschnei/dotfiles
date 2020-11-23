@@ -19,3 +19,6 @@ bindkey "^[[1;5D" backward-word
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+GPG_TTY=$(tty)
+export GPG_TTY

@@ -139,11 +139,9 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # Screenshots
 # Screenshot fullscreen
-# bindsym Print exec "scrot -q 100 ${HOME}'/Bilder/Screenshots/%Y-%m-%d-%H-%M-%S_$wx$h.png' | xclip -i -selection clipboard'"
-# Screenshot with selection
-bindsym $mod+Print exec "sleep 0.4; scrot -q 100 -s ${HOME}'/Bilder/Screenshots/%Y-%m-%d-%H-%M-%S_$wx$h.png' | xclip -i -selection clipboard'"
+bindsym Print exec "scrot -q 100 ~/Pictures/Screenshots/%Y-%m-%d-%H-%M-%S.jpg -e 'xclip -in -selection clipboard -target image/jpeg ~/Pictures/Screenshots/$n'"
 # Screenshot current focused window
-bindsym Shift+Print exec "scrot -q 100 -u ${HOME}'/Bilder/Screenshots/%Y-%m-%d-%H-%M-%S_$wx$h.png' | xclip -i -selection clipboard'"
+bindsym Shift+Print exec "scrot -q 100 -u ~/Pictures/Screenshots/%Y-%m-%d-%H-%M-%S.jpg -e 'xclip -in -selection clipboard -target image/jpeg ~/Pictures/Screenshots/$n'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

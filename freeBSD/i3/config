@@ -108,7 +108,6 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -147,11 +146,11 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # Screenshots
 # Screenshot fullscreen
-# bindsym Print exec "scrot -q 100 ${HOME}'/Bilder/Screenshots/%Y-%m-%d-%H-%M-%S_$wx$h.png' | xclip -i -selection clipboard'"
-# Screenshot with selection
-bindsym $mod+Print exec "sleep 0.4; scrot -q 100 -s ${HOME}'/Bilder/Screenshots/%Y-%m-%d-%H-%M-%S_$wx$h.png' | xclip -i -selection clipboard'"
+bindsym Print exec "scrot -q 100 ~/Bilder/Screenshots/%Y-%m-%d-%H-%M-%S.jpg -e 'xclip -in -selection clipboard -target image/jpeg ~/Bilder/Screenshots/$n'"
+# Screenshot selection
+bindsym Ctrl+Print exec "mate-screenshot -a"
 # Screenshot current focused window
-bindsym Shift+Print exec "scrot -q 100 -u ${HOME}'/Bilder/Screenshots/%Y-%m-%d-%H-%M-%S_$wx$h.png' | xclip -i -selection clipboard'"
+bindsym Shift+Print exec "scrot -q 100 -u ~/Bilder/Screenshots/%Y-%m-%d-%H-%M-%S.jpg -e 'xclip -in -selection clipboard -target image/jpeg ~/Bilder/Screenshots/$n'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

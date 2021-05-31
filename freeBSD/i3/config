@@ -202,9 +202,10 @@ assign [class="UXTerm"] 1
 assign [class="Chromium-browser"] 2
 assign [class="Thunderbird"] 3
 assign [class="linphone"] 4
+assign [class="Sonata"] 5
 
-# autostart thunderbird, uxterm, chrome and linphone on i3 startup
 exec thunderbird
 exec uxterm
 exec chrome
 exec linphone
+exec sonata

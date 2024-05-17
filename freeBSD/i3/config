@@ -198,14 +198,14 @@ exec_always --no-startup-id numlockx on
 # set background image
 exec --no-startup-id feh --bg-fill ${HOME}/Bilder/wallpaper.jpg
 
-assign [class="UXTerm"] 1
-assign [class="Chromium-browser"] 2
-assign [class="Thunderbird"] 3
+assign [class="mate-terminal"] 1
+assign [class="firefox"] 2
+assign [class="thunderbird"] 3
 assign [class="linphone"] 4
 assign [class="Sonata"] 5
 
-exec thunderbird
-exec uxterm
-exec chrome
-exec linphone
+#exec thunderbird
+exec mate-terminal
+exec firefox
+#exec linphone
 exec sonata

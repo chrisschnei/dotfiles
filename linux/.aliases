@@ -22,4 +22,4 @@ alias hr='sudo acpiconf -s 3'
 # hibernate
 alias hd='sudo acpiconf -s 4'
 # i3lock-fancy
-alias i='i3lock-fancy'
+alias i='i3lock --blur=.1'

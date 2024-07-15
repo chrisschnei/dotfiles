@@ -23,4 +23,6 @@ alias hr='sudo acpiconf -s 3'
 alias hd='sudo acpiconf -s 4'
 
 # i3lock-fancy
-alias i='i3lock-fancy'
+alias i='i3lock --blur=.1'
+# i3lock photo gallery
+alias o='i3lock --image=$HOME/lockpictures --slideshow-random-selection --scale'
